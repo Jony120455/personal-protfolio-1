@@ -1,0 +1,55 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 30px;
+    padding-left: 6%;
+    margin: 0;
+}
+section{
+    display: flex;
+}
+.width{
+    width: 50%;
+    padding-left: 10%; 
+}
+h1{
+    font-size: 40px;
+}
+.width img{
+    width: 70%;
+    padding-right: 5%;   
+}
+.width h1{
+    padding-top: 5%;
+}
+.button{
+    background-image: linear-gradient(#F8B4A3,#AD74F0);
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 3px;
+    color: white;
+}
+.top-bar{
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    margin-bottom: 100px;
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.midle-bar{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.width p{
+    text-align: justify;
+}
+footer{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+}
